@@ -1,0 +1,33 @@
+# FOR HPE servers - make sure you add its Family
+
+###################################################
+# Enablement dev_lab
+###################################################
+
+# HPE ProLiant DL325 Gen10
+lakitu:
+  vendor: HPE
+  model: ProLiant DL325 Gen10 (A41)
+  bmc:
+    type: ipmi
+    address: 10.220.10.15
+    mac: mac_addr
+    user: add_username
+    password: add_passwd
+
+
+###################################################
+# Enablement Production_lab
+###################################################
+
+#HPE ProLiant DL385 Gen10 (878615-B21)
+zwicky:       
+  vendor: HPE
+  model: ProLiant DL385 Gen10 (A40)
+  bmc:
+    type: ipmi
+    address: 10.221.30.3
+    mac: mac_add
+    user: add_user
+    password: add_passwd
+
